@@ -10,17 +10,14 @@ for i in range(5):
     Age = int(input("Enter Your Age  "))
     Marks = int(input("Enter Your Marks  "))
 
-    print('Roll Number', 'Name', 'Age', 'Marks')
-    Data = [roll_num, Name, Age, Marks]
-
-    for i in Data:
-        print(Data)
-    pass
-
 if Marks > 100:
     print("Please Enter Marks Below 100")
     Marks = int(input("Enter Your Marks  "))
     pass
 else:
-    print(Marks)
+    print('Roll Number', 'Name', 'Age', 'Marks')
+    Data = [roll_num, Name, Age, Marks]
+    for i in Data:
+        print(Data)
+    pass
 pass
